@@ -1,0 +1,23 @@
+{
+  "name": "payever-qa-task",
+  "version": "1.0.0",
+  "description": "Automated Test Cases - Payever QA Task",
+  "main": "index.js",
+  "scripts": {
+    "test": "ts-mocha src/**/**.test.ts --timeout 20000"
+  },
+  "keywords": [],
+  "author": "Rafael Ribeiro Bonamigo",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.0.0",
+    "@types/chai": "^4.3.5",
+    "@types/mocha": "^10.0.1",
+    "@types/selenium-webdriver": "^4.1.14",
+    "ts-mocha": "^10.0.0",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "selenium-webdriver": "^4.9.2",
+    "typescript": "^5.0.4"
+  }
+}
