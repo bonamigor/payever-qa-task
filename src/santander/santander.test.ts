@@ -3,7 +3,7 @@ import { SantanderPageFactory } from "./SantanderPageFactory";
 
 const driver: ThenableWebDriver = new Builder().forBrowser('chrome').build();
 
-describe('Test Case 1 - Value = "santander"', () => {
+describe('Test Case 2 - Value = "santander"', () => {
   before(async () => {
     await driver.navigate().to('https://commerceos.staging.devpayever.com/registration/santander');
   })
